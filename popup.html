@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 539px;
+        height: 363px;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    .btn {
+        box-sizing: border-box;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>効果音パネル</h1>
+    <h3>推しに元気を与えてもらおう！！</h3>
+
+    <div id="btn1" class="btn">音がなるよ!!(1)</div>
+    <audio id="btn_audio1">
+    <source src="audio/1.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="btn2" class="btn">音がなるよ!!(2)</div>
+    <audio id="btn_audio2">
+    <source src="audio/2.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
